@@ -1,4 +1,2 @@
-# django
-merupakan catatan code yang saya kumpulkan dari internet untuk memecahkan masalah code yang tidak diajarkan di kelas terbuka
-
-sejauh ini merupakan hasil pembelajaran saya di kelas terbuka sejauh ini sudah sampai ke video 34
+Dalam project ini saya cantumkan catatan dari implementasi dari video tutorial django di kelas terbuka youtube "https://www.youtube.com/watch?v=hPXNP1NoVNQ&list=PLZS-MHyEIRo6p_RwsWntxMO5QAqIHHHld"
+yang tidak terdapat dalam tutorial tersebut melainkan hasil tambahan dari pencarian di berbagai sumber internet terutama stackoverflow
