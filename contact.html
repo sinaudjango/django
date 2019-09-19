@@ -1,0 +1,13 @@
+<div class="form-group has-success">
+    {{ data_form.jenis_kelamin.label_tag }}
+    {% for radio, choice in data_form.jenis_kelamin.field.widget.choices %}
+    <div class="custom-control custom-radio custom-control-inline">
+        <input id="id_{{data_form.jenis_kelamin.name}}_{{ forloop.counter0 }}" name="{{data_form.jenis_kelamin.name}}" type="{{data_form.jenis_kelamin.field.widget.input_type}}" value="{{pk}}" class="custom-control-input"
+         {% ifequal data_form.jenis_kelamin.data pk.0 %}
+           checked="checked"
+         {% endifequal %}/>
+        <label for="id_{{data_form.jenis_kelamin.name}}_{{ forloop.counter0 }}" class="custom-control-label">{{ choice }}</label>
+
+    </div>
+{% endfor %}
+</div>
